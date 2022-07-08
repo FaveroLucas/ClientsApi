@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+  mongo:
+    image: mongo
+    container_name: client-mongodb-v1
+    ports:
+      - 27017:27017
+    volumes:
+      - ~/apps/mongo/data/db
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=lu
+      - MONGO_INITDB_ROOT_PASSWORD=lu
