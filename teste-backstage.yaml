@@ -7,4 +7,5 @@ spec:
   type: service
   lifecycle: production
   owner: builders-test
-  consumesApis: ['component:example-grpc-api']
+  system: exemplo-lucas
+  consumesApis: ['component:example-website']
