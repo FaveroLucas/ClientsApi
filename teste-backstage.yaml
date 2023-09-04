@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: teste-lucas
+  description: teste-yaml-lucas
+spec:
+  type: service
+  lifecycle: production
+  owner: builders-test
+  consumesApis: ['component:example-grpc-api']
