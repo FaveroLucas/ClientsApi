@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: teste-lucas-api
+  description: teste-yaml-lucas-api
+spec:
+  type: openapi
+  lifecycle: production
+  owner: guests
+  system: examples
