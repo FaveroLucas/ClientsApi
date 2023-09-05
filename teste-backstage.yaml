@@ -9,4 +9,4 @@ spec:
   owner: builders-test
   system: exemplo-lucas
   consumesApis: ['component:example-website'] 
-  provideApis: ['teste-lucas-api']
+  provideApis: [teste-lucas-api]
