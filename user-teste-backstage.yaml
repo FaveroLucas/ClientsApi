@@ -1,0 +1,6 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: lucas
+spec:
+  memberOf: [builders-test]
