@@ -8,4 +8,4 @@ spec:
   lifecycle: production
   owner: builders-test
   system: exemplo-lucas
-  consumesApis: ['component:example-website']
+  consumesApis: ['component:example-website'], ['api: teste-lucas-api']
