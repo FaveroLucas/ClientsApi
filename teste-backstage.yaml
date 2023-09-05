@@ -9,4 +9,5 @@ spec:
   owner: builders-test
   system: exemplo-lucas
   consumesApis: ['component:example-website'] 
-  providesApis: [example-grpc-api]
+  providesApi: [example-grpc-api]
+  apiProvidedBy: [teste-lucas-api]
