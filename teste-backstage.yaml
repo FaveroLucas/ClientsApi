@@ -10,4 +10,4 @@ spec:
   system: exemplo-lucas
   consumesApis: ['component:example-website'] 
   providesApis: [example-grpc-api]
-  providesApis: [teste-lucas-api]
+  apiProvidedBy: [teste-lucas-api]
