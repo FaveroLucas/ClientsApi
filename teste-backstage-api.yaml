@@ -3,6 +3,8 @@ kind: API
 metadata:
   name: teste-lucas-api
   description: teste-yaml-lucas-api
+  annotations:
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: openapi
   lifecycle: production
